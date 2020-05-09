@@ -1,0 +1,51 @@
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 20px;
+}
+.map-item{
+    padding: 30px 15px 15px 16px;
+    width: 64px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid rgb(122, 34, 48);
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background: none;
+    border-bottom: 1px solid rgb(122, 34, 48);
+    width: 100px;
+}
+.help{
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.192);
+    position: absolute;
+}
+.help-wrapper{
+    display: flex;
+}
+
+.help-img img
+{
+    width: 200px;
+    margin-right: 10px;
+}
+.help-title{
+    text-align: center;
+    font-weight: bold;
+}
