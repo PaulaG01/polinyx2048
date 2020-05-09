@@ -12,7 +12,7 @@
 
 <body>
 <div class="help">
-    <h1>Polinyx 2048 game v1.0</h1>
+    <h1>Polinyx 2048 game v2.0</h1>
     <div class="help-wrapper">
         <div class="help-img">
             <img src="pict.jpg" alt="">
@@ -23,6 +23,8 @@
                 - HELP -
             </div>
             <p>use W A S D to play</p>
+            <hr>
+            <p>Upd2.0 reset <br>location reload</p>
         </div>
     </div>
 

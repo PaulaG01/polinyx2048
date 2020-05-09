@@ -18,7 +18,7 @@ document.addEventListener('keydown', function(event) {
                 }
                 else {
                     $('#map').html(data);
-                    location.reload();
+                    colors();
                 }
 
             }
@@ -39,7 +39,7 @@ document.addEventListener('keydown', function(event) {
                 }
                 else {
                     $('#map').html(data);
-                    location.reload();
+                    colors();
                 }
             }
         });
@@ -59,7 +59,7 @@ document.addEventListener('keydown', function(event) {
                 }
                 else {
                     $('#map').html(data);
-                    location.reload();
+                    colors();
                 }
             }
         });
@@ -79,7 +79,7 @@ document.addEventListener('keydown', function(event) {
                 }
                 else {
                     $('#map').html(data);
-                    location.reload();
+                    colors();
                 }
             }
         });
@@ -96,16 +96,18 @@ $('#start').on('click', function () {
         },
         success:function(data){
             $('#map').html(data);
-            location.reload();
+            colors();
         }
     });
 });
 
-
+function colors(){
     let elements = document.getElementsByClassName('map-item');
     for(let i=0; i<elements.length; i++){
         setColor(document.getElementsByClassName('map-item')[i])
     }
+
+}
 
 
 function setColor(el) {
